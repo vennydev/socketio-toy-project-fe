@@ -2,9 +2,7 @@ import styled from 'styled-components';
 
 
 function App() {
-
   var socket = io();
-
   var messages = document.getElementById('messages');
   var form = document.getElementById('form');
   var input = document.getElementById('input');
